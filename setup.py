@@ -4,13 +4,13 @@ long_description = 'Countdown timer!'
 
 setup(
   name = 'pycountdown',
-  version = '1.3',
+  version = '2.0',
   license='Apache',
   description = 'Countdown timer!',
   author = 'Rujul Nayak',
   author_email = 'rujulnayak@outlook.com',
   url = 'https://github.com/nayakrujul/badsql-tools',
-  download_url = '',
+  download_url = 'https://github.com/nayakrujul/countdowntimer/archive/refs/tags/v_01.tar.gz',
   keywords = ['countdown', 'timer'],
   install_requires=[
       ],
