@@ -39,6 +39,9 @@ def countdown(t):
         m, s = t.split(':')
         if isdigit(m, False) and isdigit(s):
             secs = int(m)*60 + float(s)
+
+def demo():
+    return countdown(15)
             return countdown_display(secs)
     else:
         return False
