@@ -56,3 +56,5 @@ Note: if there are spaces, use quotes:
 ```
 $ countdown "1m 30"
 ```
+
+To stop the countdown in the command line, press CTRL-C
