@@ -1,0 +1,4 @@
+[console_scripts]
+countdown = countdowntimer.countdown_program:countdown_terminal
+countdowndemo = countdowntimer.countdown_program:countdown
+

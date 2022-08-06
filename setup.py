@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 long_description = 'Countdown timer!'
 
 setup(
-  name = 'countdown',
-  version = '0.1',
+  name = 'pycountdown',
+  version = '1.3',
   license='Apache',
   description = 'Countdown timer!',
   author = 'Rujul Nayak',
@@ -32,7 +32,8 @@ setup(
   packages = find_packages(),
   entry_points ={
             'console_scripts': [
-                'countdowndemo = countdowntimer.countdown:demo'
+                'countdowndemo = countdowntimer.countdown_program:countdown',
+                'countdown = countdowntimer.countdown_program:countdown_terminal'
             ]
   }
 )
