@@ -25,6 +25,12 @@ pip install pycountdown
 * `1m 30` = 1 min, 30 sec
 * `1m 23.4s` = 1 min, 23.4 sec
 
+#### m:[ss]
+
+* `1:30` = 1 min, 30 sec
+* `1:5` = 1 min, 5 sec
+* `1:` = 1 min
+
 Note: spaces are ignored
 
 ## From a Python file
