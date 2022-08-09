@@ -31,7 +31,7 @@ pip install pycountdown
 * `1:5` = 1 min, 5 sec
 * `1:` = 1 min
 
-Note: spaces are ignored
+Note: spaces and leading zeros are ignored
 
 ## From a Python file
 
